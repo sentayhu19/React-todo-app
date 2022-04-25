@@ -25,3 +25,12 @@ code {
     'Courier New',
     monospace;
 }
+
+#delete {
+  background-color: red;
+  color: white;
+}
+
+#delete:active {
+  transform: scale(1.3);
+}
