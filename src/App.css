@@ -34,15 +34,6 @@
   color: #000;
 }
 
-.input-submit {
-  background: transparent;
-  color: #5b5b5b;
-  text-transform: capitalize;
-  cursor: pointer;
-  font-weight: 600;
-  margin-right: 10px;
-}
-
 .input-text,
 .input-submit {
   height: 45px;
@@ -50,8 +41,12 @@
   border: none;
 }
 
-.input-submit{
-    background-color: green;
-    color: white;
-    border-radius: 8px;
+.input-submit {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
 }
