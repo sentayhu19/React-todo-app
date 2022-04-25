@@ -2,21 +2,23 @@ import React from 'react';
 import TodosList from './TodosList';
 import Header from './Header';
 import InputTodo from "./InputTodo"
+import randomString, { generate } from 'randomized-string'
+import { alphanumeric } from 'randomized-string/lib/types';
 class TodoContainer extends React.Component {
     state ={
       todos: [
         {
-          id: 1,
+          id: generate({charset:alphanumeric}),
           title: 'Setup development environment',
           completed: true,
         },
         {
-          id: 2,
+          id: generate({charset:alphanumeric}),
           title: 'Develop website and add content',
           completed: false,
         },
         {
-          id: 3,
+          id: generate({charset:alphanumeric}),
           title: 'Deploy to live server',
           completed: false,
         },
@@ -49,12 +51,9 @@ class TodoContainer extends React.Component {
     
     };
     addTodoItem = title => {
-      console.log(title);
-    };
-    
-    addTodoItem = title => {
+      console.log(this.state.todos);
       const newTodo = {
-        id: 4,
+        id:  generate({charset:alphanumeric}),
         title: title,
         completed: false
       };
