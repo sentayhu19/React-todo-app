@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project is about Todo list in react users can perfrom CRUD on the lists.
 
-<!-- ![LearderBoard design (20)]() comming soon-->
+![Todos List design (20)](https://raw.githubusercontent.com/sentayhu19/React-todo-app/todo-app/Screenshot%202022-04-25%20231602.png)
 
 <!-- ## Live demo -->
 
