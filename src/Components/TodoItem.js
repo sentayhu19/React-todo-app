@@ -3,12 +3,6 @@
 import React from 'react';
 import styles from './TodoItem.module.scss';
 
-const completedStyle = {
-  fontStyle: 'italic',
-  color: '#595959',
-  opacity: 0.4,
-  textDecoration: 'line-through',
-};
 function TodoItem(props) {
   const { completed, id, title } = props.todo;
   return (
@@ -22,7 +16,7 @@ function TodoItem(props) {
       <button onClick={() => props.deleteTodoProps(id)} type="button" id="delete">
         Delete
       </button>
-      <span style={completed ? completedStyle : null}>
+      <span className={completed ? 'completedStyle' : ''}>
         {title}
       </span>
     </li>

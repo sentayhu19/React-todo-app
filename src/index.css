@@ -48,3 +48,10 @@ h1{
   text-transform: lowercase;
   text-align: center;
 }
+
+.completedStyle {
+  font-Style: italic;
+  color: #595959;
+  opacity: 0.4;
+  text-decoration: line-through;
+};
