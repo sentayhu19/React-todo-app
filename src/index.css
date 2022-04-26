@@ -34,3 +34,7 @@ code {
 #delete:active {
   transform: scale(1.3);
 }
+
+.App-header{
+  display: none;
+}

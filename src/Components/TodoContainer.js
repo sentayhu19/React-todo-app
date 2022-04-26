@@ -10,23 +10,7 @@ import InputTodo from './InputTodo';
 
 class TodoContainer extends React.Component {
     state ={
-      todos: [
-        {
-          id: generate({ charset: alphanumeric }),
-          title: 'Setup development environment',
-          completed: true,
-        },
-        {
-          id: generate({ charset: alphanumeric }),
-          title: 'Develop website and add content',
-          completed: false,
-        },
-        {
-          id: generate({ charset: alphanumeric }),
-          title: 'Deploy to live server',
-          completed: false,
-        },
-      ],
+      todos: [],
 
     };
 
